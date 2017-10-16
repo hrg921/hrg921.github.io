@@ -16,6 +16,7 @@
     "url": "https://github.com/hrg921/hrg921.github.io/issues"
   },
   "dependencies": {
+    "typed.js": "^2.0.6",
     "web-animations-js": "^2.3.1"
   },
   "devDependencies": {

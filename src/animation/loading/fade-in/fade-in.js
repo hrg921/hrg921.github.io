@@ -7,17 +7,7 @@
  */
 import './fade-in.scss';
 
-const createAnimationElement = (body) => {
-  const loadingElement = document.createElement('div');
-  body.appendChild(loadingElement);
-  loadingElement.classList.add('loading');
-
-  return loadingElement;
-};
-
-const deleteAnimationElement = (body, element) => {
-  body.removeChild(element);
-};
+import AnimationUtil from '../../animation-util';
 
 const createAndPlayAnimation = (element) => {
   return element.animate([
@@ -27,10 +17,10 @@ const createAndPlayAnimation = (element) => {
 };
 
 const playFadeInAnimation = () => {
-  const body = document.querySelector('body');
-  const loadingElement = createAnimationElement(body);
+  const loadingElement = AnimationUtil.createAnimationElement();
+  loadingElement.classList.add('fade-in');
   const loadingAnimation = createAndPlayAnimation(loadingElement);
-  return { finished: loadingAnimation.finished, remove: () => deleteAnimationElement(body, loadingElement) };
+  return { finished: loadingAnimation.finished, remove: () => AnimationUtil.deleteAnimationElement(loadingElement) };
 };
 
 export default { playFadeInAnimation };

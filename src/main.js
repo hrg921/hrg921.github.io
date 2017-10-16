@@ -9,4 +9,4 @@ import './style.scss';
 
 import loading from './animation/loading';
 
-loading();
+window.onload = () => loading();

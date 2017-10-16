@@ -1,10 +1,10 @@
 /**
  * Created by hangeonho on 2017. 9. 27..
- * File name :
+ * File name : index
  * File type : JavaScript
- * File purpose :
- * Status :
+ * File purpose : indexing file for loading
+ * Status : completed for v0.0.1
  */
-import playLoadingAnimation from './loading';
+import loading from './loading';
 
-export default playLoadingAnimation;
+export default loading;

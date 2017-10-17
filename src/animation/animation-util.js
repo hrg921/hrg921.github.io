@@ -19,4 +19,4 @@ const deleteAnimationElement = (element) => {
   return new Promise((resolve, reject) => resolve());
 };
 
-export default { createAnimationElement, deleteAnimationElement }
+export default { createAnimationElement, deleteAnimationElement };

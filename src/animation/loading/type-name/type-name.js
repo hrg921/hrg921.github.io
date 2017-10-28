@@ -11,7 +11,7 @@ import Typed from 'typed.js';
 import AnimationUtil from '../../animation-util';
 
 const options = {
-  strings: ['G-eo-n Ho', 'H'],
+  strings: ['G-eo-n Ho, Han', 'H'],
   typeSpeed: 100,
   startDelay: 50,
   backSpeed: 50,

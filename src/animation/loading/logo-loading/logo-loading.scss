@@ -1,0 +1,63 @@
+@import '../../../variable.scss';
+
+div.pre-logo-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (min-width: $first-break-point) {
+  div.pre-logo-loading {
+    font-size: $first-logo-height * 7;
+  }
+
+  img.logo {
+    height: $first-logo-height * 6;
+  }
+}
+
+@media screen and (min-width: $second-break-point) {
+  div.pre-logo-loading {
+    font-size: $second-logo-height * 7;
+  }
+
+  img.logo {
+    height: $second-logo-height * 6;
+  }
+}
+
+@media screen and (min-width: $third-break-point) {
+  div.pre-logo-loading {
+    font-size: $third-logo-height * 7;
+  }
+
+  img.logo {
+    height: $third-logo-height * 6;
+  }
+}
+
+@media screen and (min-width: $fourth-break-point) {
+  div.pre-logo-loading {
+    font-size: $fourth-logo-height;
+  }
+
+  img.logo {
+    height: $fourth-logo-height * 6;
+  }
+}
+
+@media screen and (min-width: $fifth-break-point) {
+  div.pre-logo-loading {
+    font-size: $fifth-logo-height * 7;
+  }
+
+  img.logo {
+    height: $fifth-logo-height * 6;
+  }
+}

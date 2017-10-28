@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa:700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:900');
 
 html, body {
   width: 100%;
@@ -8,4 +8,8 @@ html, body {
 body {
   background-color: rgb(51, 51, 51);
   margin: 0;
+}
+
+.download {
+  display: none;
 }

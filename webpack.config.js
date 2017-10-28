@@ -33,6 +33,9 @@ module.exports = {
         }
       }]
     }, {
+      test: /\.svg$/,
+      loader: 'file-loader'
+    }, {
       test: /\.scss$/,
       use: [{
         loader: 'style-loader' // creates style nodes from JS strings

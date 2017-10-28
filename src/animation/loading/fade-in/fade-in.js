@@ -3,7 +3,7 @@
  * File name : fade-in
  * File type : JavaScript
  * File purpose : loadingAnimation - fadeIn Animation
- * Status : completed for v0.0.1
+ * Status : completed for v1.0
  */
 import './fade-in.scss';
 

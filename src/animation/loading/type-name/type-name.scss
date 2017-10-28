@@ -9,39 +9,35 @@ div.type-name {
   height: 100%;
 
   color: white;
-  font-family: 'Comfortaa', cursive;
-}
-
-span.typed-cursor {
-
+  font-family: 'Roboto', sans-serif;
 }
 
 @media screen and (min-width: $first-break-point) {
   div.type-name {
-    font-size: 20px;
+    font-size: $first-logo-height;
   }
 }
 
 @media screen and (min-width: $second-break-point) {
   div.type-name {
-    font-size: 30px;
+    font-size: $second-logo-height;
   }
 }
 
 @media screen and (min-width: $third-break-point) {
   div.type-name {
-    font-size: 40px;
+    font-size: $third-logo-height;
   }
 }
 
 @media screen and (min-width: $fourth-break-point) {
   div.type-name {
-    font-size: 45px;
+    font-size: $fourth-logo-height;
   }
 }
 
 @media screen and (min-width: $fifth-break-point) {
   div.type-name {
-    font-size: 50px;
+    font-size: $fifth-logo-height;
   }
 }
